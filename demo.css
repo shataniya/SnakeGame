@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    border: 30px solid dimgray;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.model {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.model-text {
+    color: #fff;
+    font-size: 100px;
+}
+
+.start-button {
+    width: 100px;
+    height: 50px;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+}
+
+.snake {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.snake-item {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.ball {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    top: 150px;
+    left: 300px;
+}
